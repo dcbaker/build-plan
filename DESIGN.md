@@ -33,7 +33,7 @@ Here's a *very* rough idea I have the of the Provider -> Orchestrator
             "link_args": ["-L", "/usr/local/lib", "-lz"],
             "compile_args": ["-DSOME_FEATURE"]
         }
-    ],
+    },
     "compilers": {
         "host": {
             "c": ["/usr/bin/ccache", "/usr/local/bin/gcc-foo"]
